@@ -1,0 +1,87 @@
+.app-header {
+  height: 60px;
+  background-color: #c7e8dc; 
+  color: #1c1e21; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-left: 280px;
+  width: calc(100% - 300px); 
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 22px;
+  color: #10b981; /* Emerald-500 */
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.admin-name {
+  font-size: medium;
+  font-style: italic;
+  color: #09090b; 
+}
+
+.logout-btn {
+  
+  
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.2s ease;
+}
+
+
+
+.logout-icon {
+  font-size: 16px;
+}
+.nav-links-header {
+  display: flex;
+  gap: 16px;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.nav-links-header li a {
+  color: #1f2227;
+  text-decoration: none;
+  font-size: 16px;
+
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.nav-icon {
+  font-size: 16px;
+}
